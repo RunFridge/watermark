@@ -7,13 +7,13 @@
 1. Install
 
    ```bash
-   npm install @RunFridge/watermark
+   npm install @runfridge/watermark
    ```
 
 2. Import and use it!
 
    ```tsx
-   import Watermark from "@RunFridge/watermark";
+   import Watermark from "@runfridge/watermark";
 
    const App = () => {
      return <Watermark isVisible={true} text="DEVELOPMENT" />;
