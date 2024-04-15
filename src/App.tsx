@@ -1,9 +1,9 @@
-import { Watermark } from "../lib/Watermark";
+import { Watermark } from "../";
 
 function App() {
   return (
     <main>
-      <Watermark isVisible opacity={1} />
+      <Watermark isVisible />
       <h1>First Section</h1>
     </main>
   );
