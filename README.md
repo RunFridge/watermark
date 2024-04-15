@@ -13,7 +13,7 @@
 2. Import and use it!
 
    ```tsx
-   import Watermark from "@runfridge/watermark";
+   import { Watermark } from "@runfridge/watermark";
 
    const App = () => {
      return <Watermark isVisible={true} text="DEVELOPMENT" />;
