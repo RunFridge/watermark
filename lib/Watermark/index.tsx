@@ -1,4 +1,5 @@
-import styles from "./styles.module.css";
+import "./index.css";
+import { cn } from "./utils";
 
 interface WatermarkProps {
   /**
@@ -38,7 +39,12 @@ export function Watermark(props: WatermarkProps) {
   return (
     isVisible && (
       <div
-        className={styles.watermark}
+        className={cn(
+          "pointer-events-none fixed left-0 top-0 z-50 h-screen w-screen overflow-hidden",
+          "after:absolute after:z-50 after:content-[attr(data-text)]",
+          "after:left-0 after:top-0 after:h-[200%] after:w-[200%] after:rotate-45",
+          "after:pointer-events-none after:whitespace-pre-wrap after:font-sans after:text-[5vw]",
+        )}
         data-text={dataText}
         style={{ opacity, color }}
       ></div>
