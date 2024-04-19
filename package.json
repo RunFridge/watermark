@@ -1,7 +1,7 @@
 {
   "name": "@runfridge/watermark",
   "private": false,
-  "version": "0.0.3",
+  "version": "0.1.0",
   "type": "module",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
@@ -19,10 +19,6 @@
     "format": "prettier --write \"src/**/*.{js,ts,jsx,tsx}\" \"lib/**/*.{js,ts,jsx,tsx}\"",
     "preview": "vite preview",
     "prepublishOnly": "yarn build"
-  },
-  "dependencies": {
-    "clsx": "^2.1.0",
-    "tailwind-merge": "^2.3.0"
   },
   "peerDependencies": {
     "react": "^18.2.0",
