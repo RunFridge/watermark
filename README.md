@@ -19,3 +19,7 @@
      return <Watermark isVisible={true} text="DEVELOPMENT" />;
    };
    ```
+
+## [Demo](https://codesandbox.io/p/sandbox/runfridge-watermark-demo-xzrlkk)
+
+![](./public/Watermark.jpeg)
